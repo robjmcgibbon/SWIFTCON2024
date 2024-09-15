@@ -4,6 +4,13 @@ This is a notebook which takes you through the complete process of running and a
 
 The notebook should be run with a [bash kernel](https://pypi.org/project/bash_kernel/).
 
-If you are using cosma, the script `cosma_env.sh` will create a virtual python environment and install all required dependencies. For those not on cosma the python dependencies can be found in `requirements.txt`, and the dependencies for the other codes are listed in the notebook itself.
+If you are using cosma then run the following commands to install all required dependencies and start a notebook.
+```
+./cosma_env.sh
+venv_name="$(echo $HOME | sed 's/home/apps/')/swift_workshop_env"
+source "${venv_name}"/bin/activate
+jupyter notebook --no-browser
+```
+For those not on cosma the python dependencies can be found in `requirements.txt`, and the dependencies for the other codes are listed in the notebook itself.
 
-Question welcome to mcgibbon@strw.leidenuniv.nl
+Questions welcome to mcgibbon@strw.leidenuniv.nl

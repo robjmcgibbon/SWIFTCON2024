@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+*.hdf5
+*.yml
+
+swiftsim/
+dependency_graph_0.csv
+snap.xmf
+statistics.txt
+task_level_0.txt
+timesteps.txt
+
+HBTplus/
+HBT_config.txt
+HBT_output/
+
+SOAP/
+SOAP_config.yml

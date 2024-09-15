@@ -18,7 +18,7 @@ python -m venv "${venv_name}"
 source "${venv_name}"/bin/activate
 
 # Install mpi4py and h5py using precompiled wheels
-wheel_dir="/cosma/local/python-wheels/3.12.4/openmpi-5.0.3-hdf5-${hdf5_version}/"
+wheel_dir="/cosma/local/python-wheels/3.12.4/openmpi-5.0.3-hdf5-1.12.3/"
 pip install "${wheel_dir}mpi4py-3.1.6-cp312-cp312-linux_x86_64.whl"
 pip install "${wheel_dir}h5py-3.11.0-cp312-cp312-linux_x86_64.whl"
 
