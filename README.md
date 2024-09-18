@@ -13,4 +13,6 @@ jupyter notebook --no-browser
 ```
 For those not on cosma the python dependencies can be found in `requirements.txt`, and the dependencies for the other codes are listed in the notebook itself.
 
+If you're not able to run a step, the files generated [can be downloaded](https://ftp.strw.leidenuniv.nl/SWIFTCON2024_example/)
+
 Questions welcome to mcgibbon@strw.leidenuniv.nl
